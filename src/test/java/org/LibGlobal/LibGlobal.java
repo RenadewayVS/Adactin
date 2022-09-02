@@ -41,6 +41,11 @@ public class LibGlobal {
 		Actions a= new Actions(driver);
 		a.moveToElement(target).perform();
 	}
+	
+	//quit
+	public void quit() {
+		driver.quit();
+	}
 		
 	}
 
